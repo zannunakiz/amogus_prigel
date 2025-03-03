@@ -5,7 +5,6 @@ import Profile from './Profile'
 function App() {
 
 
-
   const [products, setProducts] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
@@ -35,7 +34,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-300 p-6">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-3xl font-bold text-gray-800 mb-6">Anggota Lomba makan krupuk</h1>
+        <h1 className="text-3xl font-bold text-gray-800 mb-6">Daftar Status Ketersediaan Dosen</h1>
 
         {/* Error message */}
         {error && (
